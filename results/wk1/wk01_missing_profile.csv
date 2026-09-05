@@ -1,0 +1,18 @@
+building_id,site_id,usage,NaN개수,NaN비율(%),산발적구간수,산발적총시간,연속구간수,연속총시간,최장연속(시간),구조적결측미터,유형
+Hog_services_Marshall,Hog,Services,6,0.0342,20,89,1,49,49,-,연속
+Rat_office_Craig,Rat,Office,124,0.7068,24,114,1,48,48,-,연속
+Fox_education_Elvira,Fox,Education,24,0.0684,57,189,0,0,46,-,산발적
+Bear_education_Lewis,Bear,Education,39,0.2223,1469,4688,0,0,37,-,산발적
+Rat_assembly_Pauline,Rat,Entertainment/public assembly,76,0.4332,2015,6926,0,0,30,-,산발적
+Rat_assembly_Kelley,Rat,Entertainment/public assembly,28,0.1596,1494,4276,0,0,27,-,산발적
+Rat_public_Julieann,Rat,Public services,28,0.1596,2136,10455,0,0,27,-,산발적
+Bull_office_Sally,Bull,Office,26,0.0741,1632,4728,0,0,26,-,산발적
+Rat_office_Lora,Rat,Office,27,0.1539,5,32,0,0,24,-,산발적
+Rat_office_Randy,Rat,Office,76,0.4332,51,170,0,0,24,-,산발적
+Rat_office_Adele,Rat,Office,27,0.1539,3,28,0,0,24,-,산발적
+Bull_office_Ella,Bull,Office,7,0.0399,1640,4397,0,0,23,-,산발적
+Bear_education_Chad,Bear,Education,25,0.1425,2,22,0,0,20,-,산발적
+Hog_parking_Antoinette,Hog,Parking,0,0.0,2453,8658,0,0,19,-,산발적
+Fox_office_Joy,Fox,Office,2,0.0114,11,27,0,0,7,-,산발적
+Fox_office_Vicki,Fox,Office,1,0.0057,12,29,0,0,7,-,산발적
+Fox_education_Charles,Fox,Education,16,0.0912,166,343,0,0,4,-,산발적

@@ -1,0 +1,18 @@
+building_id,site_id,primaryspaceusage,sub_primaryspaceusage,sqm,yearbuilt,nan_rate,max_run_hours
+Hog_parking_Antoinette,Hog,Parking,Parking: Enclosed Garage,1949.7,,0.0,19
+Fox_office_Vicki,Fox,Office,Office,6580.5,2014.0,5.699954400364797e-05,7
+Fox_office_Joy,Fox,Office,Office,6581.0,2014.0,0.00011399908800729594,7
+Hog_services_Marshall,Hog,Services,Maintenance Repair Shop,6506.9,,0.0003419972640218878,49
+Bull_office_Ella,Bull,Office,Office,821.0,,0.0003989968080255358,23
+Fox_education_Elvira,Fox,Education,Student Union,13826.7,2014.0,0.0006839945280437756,46
+Bull_office_Sally,Bull,Office,Office,7705.3,,0.0007409940720474236,26
+Fox_education_Charles,Fox,Education,College Laboratory,909.3,,0.0009119927040583675,4
+Bear_education_Chad,Bear,Education,Education,39101.5,1930.0,0.0014249886000911993,20
+Rat_office_Lora,Rat,Office,Office,21274.8,2010.0,0.0015389876880984952,24
+Rat_office_Adele,Rat,Office,Office,37904.4,2010.0,0.0015389876880984952,24
+Rat_assembly_Kelley,Rat,Entertainment/public assembly,Other - Recreation,83.4,,0.0015959872321021432,27
+Rat_public_Julieann,Rat,Public services,Social/Meeting Hall,402.8,,0.0015959872321021432,27
+Bear_education_Lewis,Bear,Education,Education,4588.3,1931.0,0.002222982216142271,37
+Rat_office_Randy,Rat,Office,Office,5779.0,,0.004331965344277246,24
+Rat_assembly_Pauline,Rat,Entertainment/public assembly,Other - Recreation,90.0,,0.004331965344277246,30
+Rat_office_Craig,Rat,Office,Office,9754.8,,0.007067943456452348,48

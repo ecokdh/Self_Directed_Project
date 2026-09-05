@@ -1,0 +1,201 @@
+building_id,site_id,kaggle_id,primaryspaceusage,sub_primaryspaceusage,sqm,yearbuilt
+Bear_education_Chad,Bear,653,Education,Education,39101.5,1930.0
+Bear_education_Lewis,Bear,623,Education,Education,4588.3,1931.0
+Bobcat_office_Nikita,Bobcat,1007,Office,Office,3895.7,
+Bobcat_other_Jovita,Bobcat,1001,Other,Other,416.4,
+Bull_assembly_Daryl,Bull,950,Entertainment/public assembly,Athletic Field,1491.3,
+Bull_assembly_Gerri,Bull,967,Entertainment/public assembly,Sports Stadium,11079.8,
+Bull_assembly_Gigi,Bull,975,Entertainment/public assembly,Sports Stadium,39620.5,
+Bull_assembly_Katia,Bull,909,Entertainment/public assembly,Sports Stadium,6142.8,
+Bull_assembly_Lesa,Bull,948,Entertainment/public assembly,Athletic Field,1892.6,
+Bull_assembly_Nathanial,Bull,924,Entertainment/public assembly,Museum,23436.5,
+Bull_assembly_Nick,Bull,881,Entertainment/public assembly,Conference Center,32032.8,
+Bull_education_Annette,Bull,886,Education,College Laboratory,6484.5,
+Bull_education_Bernice,Bull,961,Education,College Laboratory,14481.9,
+Bull_education_Brady,Bull,882,Education,College Classroom,3636.5,
+Bull_education_Brain,Bull,914,Education,College Laboratory,21365.2,
+Bull_education_Brandi,Bull,919,Education,College Classroom,2901.6,
+Bull_education_Brenda,Bull,880,Education,College Classroom,14652.9,
+Bull_education_Carl,Bull,903,Education,College Laboratory,25622.0,
+Bull_education_Clarita,Bull,929,Education,College Laboratory,18546.0,
+Bull_education_Dakota,Bull,884,Education,College Classroom,3585.9,
+Bull_education_Genie,Bull,922,Education,College Classroom,13675.8,
+Bull_education_Gregory,Bull,974,Education,College Classroom,17333.1,
+Bull_education_Hayley,Bull,969,Education,College Classroom,17997.4,
+Bull_education_Joseph,Bull,981,Education,College Classroom,15519.9,
+Bull_education_Kendra,Bull,928,Education,College Classroom,16640.3,
+Bull_education_Kristal,Bull,890,Education,College Laboratory,18853.5,
+Bull_education_Linnie,Bull,968,Education,Student Union,14307.0,
+Bull_education_Lydia,Bull,889,Education,College Classroom,11712.9,
+Bull_education_Lyn,Bull,926,Education,College Classroom,2418.5,
+Bull_education_Matilda,Bull,994,Education,College Classroom,10069.9,
+Bull_education_Mervin,Bull,952,Education,College Classroom,20255.1,
+Bull_education_Miquel,Bull,896,Education,College Classroom,22820.4,
+Bull_education_Patrina,Bull,925,Education,College Classroom,5054.4,
+Bull_education_Racheal,Bull,966,Education,College Laboratory,36560.1,
+Bull_education_Reina,Bull,894,Education,College Classroom,9434.8,
+Bull_education_Reynaldo,Bull,893,Education,College Classroom,4384.2,
+Bull_education_Roland,Bull,931,Education,College Classroom,20071.7,
+Bull_education_Roseann,Bull,879,Education,College Laboratory,10241.2,
+Bull_education_Sebastian,Bull,895,Education,College Classroom,5117.7,
+Bull_education_Stewart,Bull,996,Education,College Laboratory,7212.2,
+Bull_education_Tracey,Bull,978,Education,College Classroom,24014.6,
+Bull_lodging_Abby,Bull,936,Lodging/residential,Dormitory,1054.4,
+Bull_lodging_Jeremiah,Bull,942,Lodging/residential,Dormitory,5326.5,
+Bull_lodging_Lettie,Bull,905,Lodging/residential,Dormitory,3683.4,
+Bull_lodging_Melissa,Bull,971,Lodging/residential,Dormitory,27992.3,
+Bull_lodging_Perry,Bull,887,Lodging/residential,Dormitory,6480.4,
+Bull_lodging_Xavier,Bull,941,Lodging/residential,Dormitory,750.6,
+Bull_office_Anne,Bull,935,Office,Office,1499.0,
+Bull_office_Claudia,Bull,988,Office,Office,2272.7,
+Bull_office_Debbie,Bull,992,Office,Office,4782.9,
+Bull_office_Ella,Bull,977,Office,Office,821.0,
+Bull_office_Rob,Bull,945,Office,Office,30885.3,
+Bull_office_Sally,Bull,990,Office,Office,7705.3,
+Bull_office_Yvonne,Bull,973,Office,Office,18019.5,
+Bull_services_Jeanmarie,Bull,970,Services,garage,32149.6,
+Bull_services_Juanita,Bull,892,Services,garage,44779.2,
+Cockatoo_religion_Diedre,Cockatoo,1353,Religious worship,Religious building,2062.5,
+Eagle_assembly_Benny,Eagle,1316,Entertainment/public assembly,Athletic,4642.8,
+Eagle_assembly_Herbert,Eagle,1315,Entertainment/public assembly,Athletic,7691.3,
+Eagle_assembly_Josie,Eagle,1318,Entertainment/public assembly,Athletic,6827.3,
+Eagle_assembly_Latrina,Eagle,1319,Entertainment/public assembly,Athletic,26702.1,
+Eagle_education_Brooke,Eagle,1258,Education,Research,25384.3,
+Eagle_education_Cassie,Eagle,1264,Education,Research,3066.9,
+Eagle_education_Edith,Eagle,1278,Education,Classroom,7427.5,
+Eagle_education_Eileen,Eagle,1226,Education,Classroom,2600.8,
+Eagle_education_Jewell,Eagle,1232,Education,Research,16845.9,
+Eagle_education_Lino,Eagle,1267,Education,Classroom,12911.4,
+Eagle_education_Luther,Eagle,1252,Education,Research,10799.9,
+Eagle_education_Peter,Eagle,1284,Education,Research,41103.8,
+Eagle_education_Samantha,Eagle,1253,Education,Research,12518.5,
+Eagle_education_Shanna,Eagle,1251,Education,Research,9718.0,
+Eagle_education_Sheena,Eagle,1234,Education,Classroom,4277.0,
+Eagle_education_Wesley,Eagle,1259,Education,Classroom,6604.3,
+Eagle_food_Kay,Eagle,1247,Food sales and service,Dining,6491.7,
+Eagle_health_Athena,Eagle,1241,Healthcare,Support,18040.6,
+Eagle_health_Gregoria,Eagle,1303,Healthcare,Patient Care,18580.6,
+Eagle_health_Margo,Eagle,1300,Healthcare,Patient Care,2379.2,
+Eagle_health_Reuben,Eagle,1285,Healthcare,Patient Care,12083.6,
+Eagle_health_Vincenza,Eagle,1245,Healthcare,Patient Care,3284.5,
+Eagle_lodging_Andy,Eagle,1311,Lodging/residential,Housing,6205.4,
+Eagle_lodging_Edgardo,Eagle,1309,Lodging/residential,Housing,5392.2,
+Eagle_lodging_Tressa,Eagle,1306,Lodging/residential,Housing,5032.7,
+Eagle_lodging_Trina,Eagle,1310,Lodging/residential,Housing,5320.9,
+Eagle_office_Amanda,Eagle,1304,Office,Office,8487.9,
+Eagle_office_Bridgett,Eagle,1257,Office,Office,5692.5,
+Eagle_office_Chantelle,Eagle,1255,Office,Office,2202.0,
+Eagle_office_Damian,Eagle,1275,Office,Office,10606.4,
+Eagle_office_Donovan,Eagle,1260,Office,Office,8031.9,
+Eagle_office_Elia,Eagle,1279,Office,Office,6014.8,
+Eagle_office_Flossie,Eagle,1261,Office,Office,3989.4,
+Eagle_office_Francis,Eagle,1249,Office,Office,14807.3,
+Eagle_office_Isidro,Eagle,1242,Office,Office,2217.7,
+Eagle_office_Lane,Eagle,1246,Office,Office,4675.5,
+Eagle_office_Mandi,Eagle,1296,Office,Office,820.9,
+Eagle_office_Marisela,Eagle,1302,Office,Office,8399.5,
+Eagle_office_Patrice,Eagle,1238,Office,Office,12050.2,
+Eagle_office_Phyllis,Eagle,1297,Office,Office,1994.5,
+Eagle_office_Ryan,Eagle,1230,Office,Office,2092.5,
+Eagle_office_Sheree,Eagle,1239,Office,Office,2907.9,
+Eagle_office_Sonya,Eagle,1323,Office,Office,8101.1,
+Eagle_office_Tia,Eagle,1225,Office,Office,11403.5,
+Eagle_public_Alvin,Eagle,1283,Public services,Library,7110.5,
+Eagle_public_Henry,Eagle,1266,Public services,Public Service,1251.3,
+Eagle_public_Pearle,Eagle,1272,Public services,Library,22990.8,
+Fox_assembly_Johnnie,Fox,254,Entertainment/public assembly,Fitness Center,23668.5,1989.0
+Fox_education_Ashli,Fox,235,Education,College Classroom,864.8,1970.0
+Fox_education_Charles,Fox,159,Education,College Laboratory,909.3,
+Fox_education_Claire,Fox,263,Education,College Classroom,8145.1,1960.0
+Fox_education_Elvira,Fox,181,Education,Student Union,13826.7,2014.0
+Fox_education_Geoffrey,Fox,190,Education,College Laboratory,12731.4,1957.0
+Fox_education_Leota,Fox,183,Education,College Laboratory,12311.3,1992.0
+Fox_education_Marlana,Fox,247,Education,College Laboratory,5997.8,1965.0
+Fox_education_Melvin,Fox,248,Education,College Laboratory,2289.4,1982.0
+Fox_education_Rosie,Fox,173,Education,College Classroom,8445.2,
+Fox_education_Tonya,Fox,174,Education,College Classroom,8444.9,
+Fox_education_Virgil,Fox,253,Education,College Laboratory,6123.0,1964.0
+Fox_lodging_Frances,Fox,240,Lodging/residential,Dormitory,10340.5,1964.0
+Fox_office_Alice,Fox,246,Office,Office,18806.8,1967.0
+Fox_office_Bernard,Fox,238,Office,Office,4182.2,
+Fox_office_Easter,Fox,270,Office,Office,2766.5,
+Fox_office_Essie,Fox,171,Office,Office,12244.3,1968.0
+Fox_office_Gaylord,Fox,278,Office,Office,13759.0,
+Fox_office_Joy,Fox,276,Office,Office,6581.0,2014.0
+Fox_office_Karima,Fox,290,Office,Office,4806.1,1966.0
+Fox_office_Vicki,Fox,275,Office,Office,6580.5,2014.0
+Gator_assembly_Erich,Gator,844,Entertainment/public assembly,Museum,645.1,
+Gator_office_Betty,Gator,827,Office,Office,542.5,
+Gator_office_Merle,Gator,848,Office,Office,794.5,
+Hog_assembly_Colette,Hog,1147,Entertainment/public assembly,Ice Arena,21783.5,
+Hog_industrial_Jay,Hog,1172,Manufacturing/industrial,Greenhouse,5931.6,
+Hog_office_Bessie,Hog,1143,Office,Office,8975.5,
+Hog_office_Clemencia,Hog,1128,Office,Office,5453.7,
+Hog_office_Nancie,Hog,1074,Office,Office,8348.1,
+Hog_office_Randi,Hog,1106,Office,Office,8556.3,
+Hog_office_Rolando,Hog,1073,Office,Office,18033.5,
+Hog_office_Simon,Hog,1137,Office,Office,2550.4,
+Hog_office_Vera,Hog,1219,Office,Office,8483.5,
+Hog_parking_Antoinette,Hog,1141,Parking,Parking: Enclosed Garage,1949.7,
+Hog_services_Marshall,Hog,1120,Services,Maintenance Repair Shop,6506.9,
+Lamb_assembly_Corliss,Lamb,658,Entertainment/public assembly,Community Center,2887.0,1976.0
+Lamb_assembly_Librada,Lamb,742,Entertainment/public assembly,Sports Stadium,2957.0,1976.0
+Lamb_assembly_Louis,Lamb,673,Entertainment/public assembly,Gymnasium,3373.0,1976.0
+Lamb_assembly_Ossie,Lamb,666,Entertainment/public assembly,Community Center,1119.0,1976.0
+Lamb_assembly_Walter,Lamb,667,Entertainment/public assembly,Community Center,1460.0,1966.0
+Lamb_education_Antonio,Lamb,708,Education,Primary/Secondary Classroom,9516.0,1945.0
+Lamb_education_Augustine,Lamb,722,Education,Primary/Secondary Classroom,2939.0,1966.0
+Lamb_education_Darrel,Lamb,701,Education,Primary/Secondary Classroom,11954.9,1966.0
+Lamb_education_Emery,Lamb,657,Education,College Classroom,10133.0,1966.0
+Lamb_education_Faith,Lamb,729,Education,Primary/Secondary Classroom,1597.0,1919.0
+Lamb_education_Hellen,Lamb,710,Education,Primary/Secondary Classroom,1123.0,1919.0
+Lamb_education_Junior,Lamb,721,Education,Primary/Secondary Classroom,11285.0,1966.0
+Lamb_education_Lucas,Lamb,697,Education,Primary/Secondary Classroom,1737.0,1919.0
+Lamb_education_Mckenzie,Lamb,730,Education,Primary/Secondary Classroom,11710.0,1966.0
+Lamb_education_Moses,Lamb,698,Education,Primary/Secondary Classroom,1295.0,1976.0
+Lamb_education_Philomena,Lamb,739,Education,Primary/Secondary Classroom,12732.0,1966.0
+Lamb_education_Rodrigo,Lamb,732,Education,Primary/Secondary Classroom,6149.0,1976.0
+Lamb_industrial_Enrique,Lamb,675,Manufacturing/industrial,Industrial,358.0,1976.0
+Lamb_office_Bertha,Lamb,693,Office,Office,5336.0,1976.0
+Lamb_office_Caitlin,Lamb,687,Office,Office,3365.0,1976.0
+Lamb_office_Peggy,Lamb,683,Office,Office,432.0,1976.0
+Lamb_office_Vasiliki,Lamb,685,Office,Office,25087.0,1976.0
+Lamb_public_Gracie,Lamb,680,Public services,Library,915.0,1976.0
+Lamb_public_Nyla,Lamb,677,Public services,Library,657.0,1919.0
+Moose_education_Abbie,Moose,801,Education,College Classroom,45000.0,1952.0
+Panther_education_Emily,Panther,91,Education,Classroom,6326.1,2003.0
+Panther_education_Misty,Panther,1,Education,Research,252.7,2004.0
+Panther_office_Brent,Panther,82,Office,Office,998.1,1974.0
+Panther_office_Christian,Panther,55,Office,Office,1553.9,2011.0
+Panther_office_Kristen,Panther,41,Office,Office,8719.9,1968.0
+Panther_office_Lauretta,Panther,79,Office,Office,3366.8,2010.0
+Panther_office_Shauna,Panther,32,Office,Office,4495.8,2005.0
+Panther_parking_Jody,Panther,69,Parking,Parking Garage,36012.7,2000.0
+Rat_assembly_Gerald,Rat,312,Entertainment/public assembly,Other - Recreation,615.5,
+Rat_assembly_Kelley,Rat,534,Entertainment/public assembly,Other - Recreation,83.4,
+Rat_assembly_Pauline,Rat,423,Entertainment/public assembly,Other - Recreation,90.0,
+Rat_education_Vicky,Rat,492,Education,K-12 School,18004.6,
+Rat_lodging_Lakisha,Rat,345,Lodging/residential,Multifamily Housing,673.5,
+Rat_office_Adele,Rat,293,Office,Office,37904.4,2010.0
+Rat_office_Craig,Rat,318,Office,Office,9754.8,
+Rat_office_Jill,Rat,560,Office,Office,31587.0,2010.0
+Rat_office_Lora,Rat,335,Office,Office,21274.8,2010.0
+Rat_office_Randy,Rat,439,Office,Office,5779.0,
+Rat_public_Julieann,Rat,356,Public services,Social/Meeting Hall,402.8,
+Robin_assembly_Colleen,Robin,137,Entertainment/public assembly,Gymnasium,5948.0,1967.0
+Robin_education_Cecilia,Robin,117,Education,College Laboratory,1439.0,2004.0
+Robin_education_Derick,Robin,121,Education,College Laboratory,13965.0,1906.0
+Robin_education_Derrick,Robin,111,Education,College Laboratory,10994.0,1909.0
+Robin_education_Julius,Robin,118,Education,College Laboratory,12850.0,1960.0
+Robin_education_Karyl,Robin,112,Education,College Laboratory,2992.0,
+Robin_education_Lashandra,Robin,107,Education,College Classroom,9061.0,2005.0
+Robin_education_Margarito,Robin,119,Education,College Laboratory,8468.0,2007.0
+Robin_education_Megan,Robin,108,Education,College Laboratory,7579.0,1913.0
+Robin_lodging_Armand,Robin,136,Lodging/residential,Dormitory,5246.0,1960.0
+Robin_office_Donald,Robin,147,Office,Office,7669.0,1977.0
+Robin_office_Gayle,Robin,141,Office,Office,4161.0,1919.0
+Robin_office_Lindsay,Robin,144,Office,Office,5358.0,
+Robin_office_Wai,Robin,148,Office,Office,16221.0,1960.0
+Robin_office_Zelma,Robin,149,Office,Office,7607.0,1960.0
+Robin_public_Cami,Robin,139,Public services,Library,5261.0,1900.0
+Wolf_education_Bobby,Wolf,1068,Education,College Classroom,10494.0,

@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# 원본 데이터 (용량 크고 재다운로드 가능 — Git LFS 함정 방지)
+Data/raw/bdg2/
+Data/raw/lead/
+
+# OS
+Thumbs.db
+.DS_Store
