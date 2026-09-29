@@ -1,0 +1,4 @@
+방식,min_ms,median_ms,max_ms,n_반복측정
+LightGBM - recursive (24스텝 순차),470.8,1186.1,1285.3,5
+LightGBM - direct (24행 배치),22.3,60.0,64.3,5
+Chronos-2 zero-shot (ctx=1024h),193.2,341.8,419.5,5

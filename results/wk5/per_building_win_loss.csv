@@ -1,0 +1,18 @@
+building,LightGBM_MASE,Chronos_MASE,승자,primaryspaceusage,site_id,sqm
+Bear_education_Chad,0.5105295152268633,0.42852588310802,Chronos-2,Education,Bear,39101.5
+Bear_education_Lewis,0.37802318247526695,0.26277729142391865,Chronos-2,Education,Bear,4588.3
+Bull_office_Ella,0.21045389554775348,0.08707529864126096,Chronos-2,Office,Bull,821.0
+Bull_office_Sally,0.9014872210887369,0.5210349276747571,Chronos-2,Office,Bull,7705.3
+Fox_education_Charles,0.5958957551064308,0.4240080514003764,Chronos-2,Education,Fox,909.3
+Fox_education_Elvira,0.49205163027373466,0.360812901608037,Chronos-2,Education,Fox,13826.7
+Fox_office_Joy,0.5683777049568063,0.4124240587747594,Chronos-2,Office,Fox,6581.0
+Fox_office_Vicki,0.6286220929668754,0.5052563092699135,Chronos-2,Office,Fox,6580.5
+Hog_parking_Antoinette,0.9536403310732452,0.6621377012792213,Chronos-2,Parking,Hog,1949.7
+Hog_services_Marshall,1.040600537024302,0.3978619639109337,Chronos-2,Services,Hog,6506.9
+Rat_assembly_Kelley,0.7581802183489768,0.4550196979110782,Chronos-2,Entertainment/public assembly,Rat,83.4
+Rat_assembly_Pauline,0.6084625943746927,0.3604437151067961,Chronos-2,Entertainment/public assembly,Rat,90.0
+Rat_office_Adele,0.5401821788890295,0.414987884230918,Chronos-2,Office,Rat,37904.4
+Rat_office_Craig,0.64508779671394,0.35536393385429194,Chronos-2,Office,Rat,9754.8
+Rat_office_Lora,0.6118204138425734,0.48311456491093474,Chronos-2,Office,Rat,21274.8
+Rat_office_Randy,0.6836919087960205,0.22954005778709674,Chronos-2,Office,Rat,5779.0
+Rat_public_Julieann,0.43206001195028887,0.16246999649951485,Chronos-2,Public services,Rat,402.8

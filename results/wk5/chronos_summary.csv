@@ -1,0 +1,5 @@
+model,horizon,MASE_평균
+Chronos-2 zero-shot,24,0.38369730808187225
+Chronos-2 + 외기온,24,0.35453705108158995
+Chronos-2 zero-shot,168,0.8100327320800473
+Chronos-2 + 외기온,168,0.6968743242629608
