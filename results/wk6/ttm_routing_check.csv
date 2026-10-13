@@ -1,0 +1,5 @@
+컨텍스트,요청 horizon,선택된 체크포인트,체크포인트 예측길이,prediction_filter_length,잘라내기 경고,freq prefix tuning,파라미터(M),freq_token 없이,freq_token(hourly=7)로
+512,24,512-48-ft-r2.1,48,24,True,True,0.8,Exception: Expecting freq_token in forward,"정상 (2, 24, 1)"
+512,168,512-192-r2,192,168,True,False,0.9,정상 실행,"정상 (2, 168, 1)"
+1024,24,1024-96-r2,96,24,True,False,2.96,정상 실행,"정상 (2, 24, 1)"
+1024,168,1024-192-r2,192,168,True,False,3.16,정상 실행,"정상 (2, 168, 1)"

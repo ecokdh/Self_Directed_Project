@@ -1,0 +1,1 @@
+{"model": "lgb_local_direct", "threads": 2, "series": 500, "baseline_mb": 510.8046875, "after_load_mb": 668.64453125, "peak_mb": 668.95703125, "peak_wset_mb": 677.60546875, "times_ms": [9022.117499960586, 8642.814100021496], "median_ms": 8642.814100021496, "min_ms": 8642.814100021496, "max_ms": 8642.814100021496, "per_series_ms": 17.285628200042993}
