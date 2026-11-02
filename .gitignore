@@ -2,6 +2,12 @@
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+.venv/
+.fonts/
+
+# 7주차 파인튜닝 체크포인트 (Chronos2Pipeline.fit 기본 출력 폴더)
+chronos-2-finetuned/
+results/wk7/ckpt/
 
 # 원본 데이터 (용량 크고 재다운로드 가능 — Git LFS 함정 방지)
 Data/raw/bdg2/

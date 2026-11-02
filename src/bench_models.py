@@ -146,14 +146,16 @@ def make_local_recursive_fns(lgb_params=LGB_PARAMS_LOCAL):
 _CACHE = {}
 
 
-def get_chronos():
-    if "chronos" not in _CACHE:
+def get_chronos(device="cpu"):
+    key = f"chronos_{device}"
+    if key not in _CACHE:
         from chronos import BaseChronosPipeline
-        _CACHE["chronos"] = BaseChronosPipeline.from_pretrained("amazon/chronos-2", device_map="cpu")
-    return _CACHE["chronos"]
+        _CACHE[key] = BaseChronosPipeline.from_pretrained("amazon/chronos-2", device_map=device)
+    return _CACHE[key]
 
 
-def make_chronos_fns(context_length, use_covariate=False, weather=None, building_site=None):
+# pipeline: 7주차 GPU·파인튜닝 모델 주입용. None 이면 5·6주차와 같은 CPU zero-shot
+def make_chronos_fns(context_length, use_covariate=False, weather=None, building_site=None, pipeline=None):
     def model_fn(train_df):
         return {"context_df": train_df.iloc[-context_length:]}
 
@@ -173,7 +175,8 @@ def make_chronos_fns(context_length, use_covariate=False, weather=None, building
                 w["item_id"] = bid
                 rows.append(w)
             future_df = pd.concat(rows, ignore_index=True)[["item_id", "timestamp", "airTemperature"]]
-        fc = get_chronos().predict_df(long_df, future_df=future_df, id_column="item_id", timestamp_column="timestamp",
+        pipe = pipeline if pipeline is not None else get_chronos()
+        fc = pipe.predict_df(long_df, future_df=future_df, id_column="item_id", timestamp_column="timestamp",
                                       target="target", prediction_length=horizon, quantile_levels=[0.5])
         return fc.pivot(index="timestamp", columns="item_id", values="predictions").reindex(columns=context_df.columns)
 
