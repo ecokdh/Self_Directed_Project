@@ -1,0 +1,2 @@
+method,building,error
+CATCH,Hog_parking_Antoinette,ZeroDivisionError('division by zero')
