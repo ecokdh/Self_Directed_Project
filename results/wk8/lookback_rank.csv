@@ -1,0 +1,4 @@
+look-back,1위,2위,3위,4위,1위 MASE,336 대비 순위 변화
+96,iTransformer,TimeXer,PatchTST,DLinear,0.9130855449522861,"PatchTST 1→3, iTransformer 2→1, TimeXer 3→2"
+336,PatchTST,iTransformer,TimeXer,DLinear,0.8900673184523196,없음
+512,PatchTST,TimeXer,iTransformer,DLinear,0.8957588606162395,"iTransformer 2→3, TimeXer 3→2"

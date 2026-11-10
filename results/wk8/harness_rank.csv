@@ -1,0 +1,3 @@
+,1위,2위,3위,4위,1위의 MASE,2주차 설계 (expanding) 대비 순위 변화
+2주차 설계 (expanding),PatchTST,TimeXer,iTransformer,DLinear,0.8885158666742484,없음
+반대 설계 (sliding),PatchTST,TimeXer,iTransformer,DLinear,0.920693085195353,없음
