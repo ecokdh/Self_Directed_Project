@@ -1,0 +1,189 @@
+{
+ "picks": [
+  {
+   "window": 33,
+   "building": "Fox_office_Vicki",
+   "step": 12,
+   "cause": "극한기온",
+   "err": 12.154260203710885
+  },
+  {
+   "window": 46,
+   "building": "Bull_office_Sally",
+   "step": 18,
+   "cause": "최근 급증",
+   "err": 3.2044830621601745
+  },
+  {
+   "window": 29,
+   "building": "Fox_office_Joy",
+   "step": 23,
+   "cause": "원인 불명",
+   "err": 11.324596858151644
+  }
+ ],
+ "evidence": [
+  {
+   "building": "Fox_office_Vicki",
+   "forecast_time": "2017-08-27 12:00:00",
+   "horizon_h": 24,
+   "prediction": {
+    "value": 86.5,
+    "unit": "kWh",
+    "interval": [
+     81.5,
+     91.8
+    ],
+    "interval_note": "앞 26주 동안 이 건물의 잔차 10~90% 분위수를 더한 근사 구간",
+    "model_used": "Chronos-2 + 공변량",
+    "route_reason": "기본값 Chronos-2 + 공변량"
+   },
+   "shap_top_features": [
+    {
+     "feature": "lag_24",
+     "value": 98.28,
+     "contribution": -127.88
+    },
+    {
+     "feature": "rolling_min_24",
+     "value": 0.0,
+     "contribution": 31.42
+    },
+    {
+     "feature": "building",
+     "value": "Fox_office_Vicki",
+     "contribution": 21.65
+    }
+   ],
+   "shap_note": {
+    "explained_model": "LightGBM 대리 모델(Chronos-2 자체가 아님)",
+    "base_value": 192.3,
+    "surrogate_prediction": 158.08
+   },
+   "covariates": {
+    "airTemperature_forecast": 40.0,
+    "temperature_band": "extreme_high",
+    "is_holiday": false
+   },
+   "anomaly_status": {
+    "is_anomaly": false,
+    "recent_residual_level": "normal",
+    "recent_naive_mase": 1.13
+   },
+   "historical_analogue": {
+    "date": "2016-08-07",
+    "similarity": 0.97,
+    "day_type": "주말",
+    "load_same_hour": 178.2
+   }
+  },
+  {
+   "building": "Bull_office_Sally",
+   "forecast_time": "2017-11-26 18:00:00",
+   "horizon_h": 24,
+   "prediction": {
+    "value": 1522.5,
+    "unit": "kWh",
+    "interval": [
+     1505.2,
+     1545.4
+    ],
+    "interval_note": "앞 26주 동안 이 건물의 잔차 10~90% 분위수를 더한 근사 구간",
+    "model_used": "Chronos-2 + 공변량",
+    "route_reason": "기본값 Chronos-2 + 공변량"
+   },
+   "shap_top_features": [
+    {
+     "feature": "lag_24",
+     "value": 1753.0,
+     "contribution": 581.11
+    },
+    {
+     "feature": "rolling_min_168",
+     "value": 0.0,
+     "contribution": -178.16
+    },
+    {
+     "feature": "lag_168",
+     "value": 88.0,
+     "contribution": -149.24
+    }
+   ],
+   "shap_note": {
+    "explained_model": "LightGBM 대리 모델(Chronos-2 자체가 아님)",
+    "base_value": 190.71,
+    "surrogate_prediction": 466.15
+   },
+   "covariates": {
+    "airTemperature_forecast": 21.1,
+    "temperature_band": "normal_range",
+    "is_holiday": false
+   },
+   "anomaly_status": {
+    "is_anomaly": true,
+    "recent_residual_level": "high",
+    "recent_naive_mase": 3.62
+   },
+   "historical_analogue": {
+    "date": "2016-11-13",
+    "similarity": 0.97,
+    "day_type": "주말",
+    "load_same_hour": 103.0
+   }
+  },
+  {
+   "building": "Fox_office_Joy",
+   "forecast_time": "2017-07-30 23:00:00",
+   "horizon_h": 24,
+   "prediction": {
+    "value": 187.5,
+    "unit": "kWh",
+    "interval": [
+     181.2,
+     194.6
+    ],
+    "interval_note": "앞 26주 동안 이 건물의 잔차 10~90% 분위수를 더한 근사 구간",
+    "model_used": "Chronos-2 + 공변량",
+    "route_reason": "기본값 Chronos-2 + 공변량"
+   },
+   "shap_top_features": [
+    {
+     "feature": "lag_168",
+     "value": 199.09,
+     "contribution": -15.32
+    },
+    {
+     "feature": "lag_24",
+     "value": 180.85,
+     "contribution": -14.47
+    },
+    {
+     "feature": "building",
+     "value": "Fox_office_Joy",
+     "contribution": 11.72
+    }
+   ],
+   "shap_note": {
+    "explained_model": "LightGBM 대리 모델(Chronos-2 자체가 아님)",
+    "base_value": 192.89,
+    "surrogate_prediction": 194.52
+   },
+   "covariates": {
+    "airTemperature_forecast": 35.0,
+    "temperature_band": "normal_range",
+    "is_holiday": false
+   },
+   "anomaly_status": {
+    "is_anomaly": false,
+    "recent_residual_level": "low",
+    "recent_naive_mase": 0.66
+   },
+   "historical_analogue": {
+    "date": "2016-08-28",
+    "similarity": 0.96,
+    "day_type": "주말",
+    "load_same_hour": 190.9
+   }
+  }
+ ]
+}

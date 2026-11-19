@@ -27,3 +27,6 @@ DADA/
 
 # 비밀값 (OPENAI_API_KEY 등) — 절대 커밋하지 않음
 .env
+
+# Claude Code 로컬 설정 (대시보드 실행 설정 등)
+.claude/
