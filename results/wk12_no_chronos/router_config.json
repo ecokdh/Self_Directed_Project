@@ -1,0 +1,38 @@
+{
+ "24": {
+  "default": "LightGBM (local)",
+  "rules": [
+   {
+    "signal": "acf168",
+    "op": "<=",
+    "thr": 0.5722879873327053,
+    "model": "TimeXer"
+   },
+   {
+    "signal": "recent_naive_mase",
+    "op": "<=",
+    "thr": 0.32872122784637964,
+    "model": "Seasonal Naive"
+   }
+  ],
+  "same_rules_with_ttm": true
+ },
+ "168": {
+  "default": "PatchTST",
+  "rules": [
+   {
+    "signal": "acf168",
+    "op": ">",
+    "thr": 0.8957668676238575,
+    "model": "LightGBM (local)"
+   },
+   {
+    "signal": "recent_naive_mase",
+    "op": "<=",
+    "thr": 0.32872122784637964,
+    "model": "Seasonal Naive"
+   }
+  ],
+  "same_rules_with_ttm": true
+ }
+}

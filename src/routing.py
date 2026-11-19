@@ -18,12 +18,17 @@ from src.metrics import compute_naive_denominators, score_backtest
 ROOT = Path(__file__).resolve().parents[1]
 RES = ROOT / "results"
 POOL = ["Seasonal Naive", "LightGBM (local)", "LightGBM (global)", "Chronos-2", "Chronos-2 + 공변량", "TTM (ctx=512)"]
+DL = ["PatchTST", "iTransformer", "TimeXer", "DLinear"]  # 8주차, 2016년으로 1회 학습(사전학습 없음) — 윈도우별 예측만 저장돼 있음(체크포인트 없음)
+# 민감도 분석: 사전학습 오염 가능성이 있는 파운데이션 모델(Chronos-2, TTM)을 모두 뺀 풀. TimesFM·Moirai는 7주차에 이미 배제
+POOL_NC = ["Seasonal Naive", "LightGBM (local)", "LightGBM (global)"] + DL
 HORIZONS = (24, 168)
 FIT_W, EVAL_W = np.arange(0, 26), np.arange(26, 52)  # 앞 26창 = 규칙 근거, 뒤 26창 = 평가
 SIGNALS = ["hist_len", "miss_28d", "has_weather", "acf168", "acf24", "recent_naive_mase"]
 
 
 def pred_path(name, h):
+    if name in DL:
+        return RES / f"wk8/preds/{name}_L336_{h}h_M_expanding_s2021.parquet"
     w10 = RES / "wk10/preds"
     return {
         "Seasonal Naive": RES / f"wk2/backtest_expanding_{h}h_w52_step168.csv",
@@ -59,18 +64,19 @@ def make_missing_preds(data, n_windows=52, step_size=168):
 class Pool:
     """한 horizon 의 후보 예측 전체: P[모델] 모양 (윈도우, 건물, h), 정답 Y 같은 모양."""
 
-    def __init__(self, data, h):
+    def __init__(self, data, h, models=POOL):
         self.h, self.buildings = h, list(data.columns)
         arrs = {}
-        for name in POOL:
-            df = pd.read_csv(pred_path(name, h), parse_dates=["timestamp"])
+        for name in models:
+            p = pred_path(name, h)
+            df = pd.read_parquet(p) if p.suffix == ".parquet" else pd.read_csv(p, parse_dates=["timestamp"])
             df["building"] = pd.Categorical(df["building"], categories=self.buildings, ordered=True)
             df = df.sort_values(["window", "building", "timestamp"])
             W = df["window"].nunique()
             arrs[name] = (df["y_true"].to_numpy().reshape(W, len(self.buildings), h), df["y_pred"].to_numpy().reshape(W, len(self.buildings), h))
-            if name == POOL[0]:
+            if name == models[0]:
                 self.origin_ts = pd.DatetimeIndex(df.groupby("window")["timestamp"].min().to_numpy())
-        self.Y = arrs[POOL[0]][0]
+        self.Y = arrs[models[0]][0]
         for n, (y, _) in arrs.items():
             assert np.allclose(y, self.Y, equal_nan=True), f"{n}: 정답이 다름"
         self.P = {n: p for n, (_, p) in arrs.items()}
