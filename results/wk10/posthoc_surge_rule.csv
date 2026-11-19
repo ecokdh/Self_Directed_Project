@@ -1,0 +1,15 @@
+,,,개선율(%),개선율(%),발동 칸,발동 칸
+구간,,,뒤 26창,앞 26창,뒤 26창,앞 26창
+horizon,조건,대상,,,,
+24,recent_naive_mase > 2,LightGBM (local),-98.30867050288361,-95.18952545233674,45.0,39.0
+24,recent_naive_mase > 2,Seasonal Naive,-517.7252955641126,-304.3796414658968,45.0,39.0
+24,recent_naive_mase > 3,LightGBM (local),-207.23864194219567,-102.30654511306992,21.0,14.0
+24,recent_naive_mase > 3,Seasonal Naive,-1213.3646909199256,-547.070640370776,21.0,14.0
+24,recent_naive_mase > 5,LightGBM (local),-53.86446038052084,-99.05028995418807,6.0,3.0
+24,recent_naive_mase > 5,Seasonal Naive,-6560.471242998549,-842.336859607819,6.0,3.0
+168,recent_naive_mase > 2,LightGBM (local),14.345153993994348,-32.74039426167794,45.0,39.0
+168,recent_naive_mase > 2,Seasonal Naive,-23.900361322654547,-61.26473623504553,45.0,39.0
+168,recent_naive_mase > 3,LightGBM (local),30.04572697599537,-37.35316429480511,21.0,14.0
+168,recent_naive_mase > 3,Seasonal Naive,-7.084890644357557,-66.15238361393757,21.0,14.0
+168,recent_naive_mase > 5,LightGBM (local),67.98308053324773,-15.566055340073781,6.0,3.0
+168,recent_naive_mase > 5,Seasonal Naive,18.345418971357148,-40.584118628249485,6.0,3.0

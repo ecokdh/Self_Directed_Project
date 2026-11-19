@@ -1,0 +1,2 @@
+horizon,순서,signal,op,thr,model,support,rel_gain,rel_gain_first,rel_gain_second
+24,1,recent_naive_mase,<=,0.32872122784637964,Chronos-2,89,0.050257709576014456,0.07899293732373316,0.011788061380967545

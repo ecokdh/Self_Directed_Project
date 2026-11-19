@@ -9,6 +9,9 @@ __pycache__/
 chronos-2-finetuned/
 results/wk7/ckpt/
 
+# 8주차 Time-Series-Library 클론 (requirements_stage2.txt 핀 4e938a1 로 각자 클론)
+Time-Series-Library/
+
 # 원본 데이터 (용량 크고 재다운로드 가능 — Git LFS 함정 방지)
 Data/raw/bdg2/
 Data/raw/lead/
@@ -16,3 +19,11 @@ Data/raw/lead/
 # OS
 Thumbs.db
 .DS_Store
+
+# 9주차 저장소 클론 (requirements_stage2.txt 핀: TSB-AD 303dffb, CATCH 3647c69, DADA ea17238)
+TSB-AD/
+CATCH/
+DADA/
+
+# 비밀값 (OPENAI_API_KEY 등) — 절대 커밋하지 않음
+.env
